@@ -15,11 +15,11 @@ class teachers(Student):
 
 
 
-student1 = Student("Jonah", "Peter", 300)
-student2 = Student("Victor", "Pictda", 200)
+student1 = Student("Jonah", "Peter", "Code Plateau_4.0")
+student2 = Student("Victor", "Pictda", "Code Plateau_4.0")
 
 Teacher1 = teachers("Fifth", "Son", "Code Plateau_3.0", "Python")
 Teacher2 = teachers("Lucky", "Yoila", "Code Plateau_2.0", "Ubuntu")
 
 
-print(Teacher1.level)
+print(student1.level)
